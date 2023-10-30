@@ -59,12 +59,7 @@ fun studentButton(/* onClick: () -> Unit*/){
 
 @Composable
 fun studentButton2(/* onClick: () -> Unit*/){
-    val list = listOf("hello", "pie", "love", "do", "bike")
-    val le = ArrayList<String>()
-    le.add("books")
-    le.add("Toys")
-    le.add("Dinners")
-    le.add("Pickle")
+
     var showDialog by remember { mutableStateOf(1) }
 
     val names = when(showDialog) {
@@ -75,11 +70,6 @@ fun studentButton2(/* onClick: () -> Unit*/){
         else -> "do"
     }
 
-    val names1 = when(showDialog) {
-        1 -> le
-
-        else -> "Not Important"
-    }
     Column() {
         Text(text = names)
         Button(onClick = { showDialog = (1..4).random() }) {
