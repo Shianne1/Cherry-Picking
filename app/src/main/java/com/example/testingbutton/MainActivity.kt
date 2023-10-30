@@ -38,6 +38,7 @@ class MainActivity : ComponentActivity() {
 
 
                     studentButton2()
+                    studentButton()
                 }
             }
         }
