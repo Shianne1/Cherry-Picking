@@ -32,7 +32,11 @@ class MainActivity : ComponentActivity() {
                 ) {
 
                     //studentButton()
-                    Greeting(name = "Shianne")
+
+                    Greeting(name = "Hello I am making pull request")
+
+
+
                     studentButton2()
                 }
             }
