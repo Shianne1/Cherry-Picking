@@ -34,6 +34,7 @@ class MainActivity : ComponentActivity() {
                     //studentButton()
                     Greeting(name = "Shianne")
                     studentButton2()
+                    studentButton()
                 }
             }
         }
